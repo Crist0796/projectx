@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/javascript.svg" />
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONTAWESOME -->
+    <script
+      src="https://kit.fontawesome.com/d673bf03dc.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    
+    <title>Frontend Mentor | Launch countdown timer</title>
+    <script type="module" crossorigin src="./assets/index-b321f528.js"></script>
+    <link rel="stylesheet" href="./assets/index-12734cb3.css">
+  </head>
+
+  <body
+    class="text-red-hat-text bg-very-dark-blue text-white min-h-screen flex flex-col"
+  >
+    <main class="flex flex-col flex-1 items-center justify-center">
+      <div class="w-full">
+        <h1
+          class="text-2xl w-10/12 m-auto font-bold text-center uppercase tracking-[5px] mb-[60px]"
+        >
+          We're launching soon
+        </h1>
+        <section class="w-11/12 m-auto flex justify-around max-w-[695px]">
+          <!-- cubitos bonitos -->
+          <div class="cutdown-container flex flex-col gap-3 uppercase">
+            <div
+              class="coutdown bg-dark-desaturated-blue flex items-center justify-center shadow-xl"
+            >
+              <span id="days" class="text-soft-red text-5xl">08</span>
+            </div>
+            <div
+              class="coutdown coutdown-overlay absolute bg-dark-desaturated-blue flex items-center justify-center shadow-xl"
+            >
+              <span id="days-overlay" class="text-soft-red text-5xl">08</span>
+            </div>
+
+            <p
+              class="text-center text-[10px] md:text-sm tracking-[2px] text-grayish-blue"
+            >
+              Days
+            </p>
+          </div>
+          <!-- cubitos bonitos -->
+          <div class="cutdown-container flex flex-col gap-3 uppercase">
+            <div
+              class="coutdown bg-dark-desaturated-blue flex items-center justify-center shadow-xl"
+            >
+              <span id="hours" class="text-soft-red text-5xl">23</span>
+            </div>
+            <div
+              class="coutdown coutdown-overlay bg-dark-desaturated-blue flex items-center justify-center shadow-xl"
+            >
+              <span id="hours-overlay" class="text-soft-red text-5xl">23</span>
+            </div>
+            <p
+              class="text-center text-[10px] md:text-sm tracking-[2px] text-grayish-blue"
+            >
+              Hours
+            </p>
+          </div>
+          <!-- cubitos bonitos -->
+          <div class="cutdown-container flex flex-col gap-3 uppercase">
+            <div
+              class="coutdown bg-dark-desaturated-blue flex items-center justify-center shadow-xl"
+            >
+              <span id="minutes" class="text-soft-red text-5xl">55</span>
+            </div>
+            <div
+              class="coutdown coutdown-overlay bg-dark-desaturated-blue flex items-center justify-center shadow-xl"
+            >
+              <span id="minutes-overlay" class="text-soft-red text-5xl"
+                >55</span
+              >
+            </div>
+            <p
+              class="text-center text-[10px] md:text-sm tracking-[2px] text-grayish-blue"
+            >
+              Minutes
+            </p>
+          </div>
+          <!-- cubitos bonitos -->
+          <div class="cutdown-container flex flex-col gap-3 uppercase">
+            <div
+              class="coutdown bg-dark-desaturated-blue flex items-center justify-center shadow-xl"
+            >
+              <span id="seconds" class="text-soft-red text-5xl">41</span>
+            </div>
+            <div
+              class="coutdown coutdown-overlay bg-dark-desaturated-blue flex items-center justify-center shadow-xl"
+            >
+              <span id="seconds-overlay" class="text-soft-red text-5xl"
+                >41</span
+              >
+            </div>
+            <p
+              class="text-center text-[10px] md:text-sm tracking-[2px] text-grayish-blue"
+            >
+              Seconds
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="h-[180px] md:h-[250px] footer flex flex-col">
+      <div class="flex-1 items-center">
+        <div class="flex justify-center items-center h-full gap-10">
+          <a
+            class="text-grayish-blue text-3xl transition hover:scale-110 hover:text-soft-red"
+            target="_blank"
+            href="https://www.facebook.com/watch/?ref=search&v=625341478544465&external_log_id=b8025768-933c-41b9-a531-6782660ca07c&q=naruto%20capitulo%2049"
+            ><i class="fa-brands fa-square-facebook fa-spin-pulse"></i
+          ></a>
+          <a
+            class="text-grayish-blue text-3xl transition hover:scale-110 hover:text-soft-red"
+            target="_blank"
+            href="https://www.pinterest.es/pin/501447739775458503/"
+            ><i class="fa-brands fa-pinterest"></i
+          ></a>
+          <a
+            class="text-grayish-blue text-3xl transition hover:scale-110 hover:text-soft-red"
+            target="_blank"
+            href="https://instagram.com/kunaguero?igshid=MzRlODBiNWFlZA=="
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+      <div class="text-center text-sm flex-0 pb-5">
+        Challenge by
+        <a
+          class="inline-block text-grayish-blue transition hover:scale-105 hover:text-soft-red"
+          target="_blank"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+        >
+          Frontend Mentor</a
+        >. Coded by
+        <a
+          class="inline-block text-grayish-blue transition hover:scale-105 hover:text-soft-red"
+          target="_blank"
+          href="https://github.com/LuisJimenez19"
+        >
+          Luis Ángel</a
+        >.
+      </div>
+    </footer>
+
+    
+  </body>
+</html>
